@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html dir="rtl"></html>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="مرحبًا بك في صفحتنا المتخصصة في تأجير العوايز للافراح والمناسبات. نحن نقدم مجموعة واسعة من العوايز الفاخرة والمريحة لجعل مناسباتك خاصة ومميزة. تواصل معنا اليوم لمعرفة المزيد!">
+    <title>صفحة تسجيل الدخول</title>
+    <link rel="stylesheet"  href="mian.css">
+
+</head>
+<body>
+    <h2>تسجيل الدخول</h2>
+
+    <form action="/submit_login" method="post">
+        <div class="container">
+            <label for="uname"><b>اسم المستخدم</b></label>
+            <input type="text" placeholder="أدخل اسم المستخدم" name="uname" required>
+
+            <label for="psw"><b>كلمة المرور</b></label>
+            <input type="password" placeholder="أدخل كلمة المرور" name="psw" required>
+
+            <button type="submit">تسجيل الدخول</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="location.href='New_Registration.html';">تسجيل جديد</button>
+            <span class="psw"> <a href="Password_Recovery.html" target="_blank">نسيت كلمة المرور</a></span>
+        </div>
+    </form>
+</body>
+</html>

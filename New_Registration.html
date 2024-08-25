@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>صفحة التسجيل</title>
+    <link rel="stylesheet" type="text/css" href="mian.css">
+</head>
+<body>
+    <h2>تسجيل جديد</h2>
+
+    <form action="/registration.db" method="post">
+        <div class="container">
+            <label for="uname"><b>اسم المستخدم</b></label>
+            <input type="text" placeholder="أدخل اسم المستخدم" name="uname" required>
+
+            <label for="email"><b>البريد الإلكتروني</b></label>
+            <input type="email" placeholder="أدخل البريد الإلكتروني" name="email" required>
+
+            <label for="psw"><b>كلمة المرور</b></label>
+            <input type="password" placeholder="أدخل كلمة المرور" name="psw" required>
+
+            <label for="psw-confirm"><b>تأكيد كلمة المرور</b></label>
+            <input type="password" placeholder="أعد إدخال كلمة المرور" name="psw-confirm" required>
+
+            <button type="submit">تسجيل</button>
+        </div>
+    </form>
+</body>
+</html>
